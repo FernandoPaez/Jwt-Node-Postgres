@@ -35,23 +35,7 @@ router.post('/login', async (req, res) => {
     else {
         res.json({ mensaje: 'No entro' });
     }
-    // (err,rows,Field) =>{
-    //     if(!err){
-    //         const data= {username,pass};
-
-    //         if( data.length >0 ) {
-
-    //         const token= jwt.sign(data, 'still');
-    //         res.json(token);
-    //         }else{
-    //             res.json('Usuario o contraseña incorrecto');
-    //         }
-    //              }
-    //     else{
-    //         console.log(err)
-    //     }
-
-    //
+    
 });
 
 //ruta de acceso restringido
