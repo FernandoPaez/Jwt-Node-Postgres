@@ -35,7 +35,7 @@ router.post('/login', async (req, res) => {
     else {
         res.json({ mensaje: 'No entro' });
     }
-    
+ 
 });
 
 //ruta de acceso restringido
